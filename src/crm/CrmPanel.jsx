@@ -3,12 +3,12 @@ import { ArrowLeft, LayoutGrid, Users, DollarSign, TrendingUp } from "lucide-rea
 import CrmDashboard from "@/crm/CrmDashboard";
 import CrmLeads from "@/crm/CrmLeads";
 import CrmLeadDetail from "@/crm/CrmLeadDetail";
-import CrmSales from "@/crm/CrmSales";
+import CrmPayouts from "@/crm/CrmPayouts";
 
 const TABS = [
   { key: "dashboard", label: "Dashboard", icon: LayoutGrid },
   { key: "leads", label: "Pipeline", icon: Users },
-  { key: "sales", label: "Vendas", icon: DollarSign },
+  { key: "sales", label: "Payouts", icon: DollarSign },
 ];
 
 // CRM as an in-Hub panel — same "full-screen view swapped in by App.jsx"
@@ -100,7 +100,7 @@ export default function CrmPanel({ crmRole, userEmail, timezone, onClose }) {
               onBack={() => setView({ tab: "leads" })}
             />
           )}
-          {view.tab === "sales" && <CrmSales />}
+          {view.tab === "sales" && <CrmPayouts isAdmin={crmRole === "admin"} timezone={timezone} />}
         </div>
       </div>
     </div>

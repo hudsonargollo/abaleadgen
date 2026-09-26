@@ -1,0 +1,5 @@
+# Requirements for Pipecat Voice Agent
+pipecat-ai[openai,twilio,deepgram,cartesia]
+python-dotenv
+aiohttp
+loguru
