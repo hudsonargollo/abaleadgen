@@ -1,11 +1,7 @@
-<svg viewBox="0 0 116 116" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gold Traffic">
-  <rect x="23" y="18" width="70" height="22" fill="#C7B79C" />
-  <rect x="26" y="20.5" width="64" height="17" fill="#141618" />
-  <rect x="50" y="37" width="16" height="58" fill="#2E4A43" />
-  <rect x="53.5" y="37" width="9" height="56" fill="#141618" />
-  <rect x="57.5" y="41" width="1" height="46" fill="#C7B79C" />
-  <rect x="46" y="95" width="24" height="5" fill="#C7B79C" />
-  <rect x="41" y="100" width="34" height="4" fill="#141618" />
-  <rect x="34" y="106.5" width="48" height="1.8" fill="#141618" />
-  <rect x="29" y="110.5" width="58" height="1.2" fill="#C7B79C" />
+<svg viewBox="42.74 46 423.26 423.26" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gold Traffic">
+  <g fill="#C7B79C" stroke="#2E4A43" stroke-width="8" stroke-linejoin="round">
+    <path d="M 63.93 311.75 A 200 200 0 1 1 200.25 448.07 L 214.13 414.57 A 164 164 0 1 0 97.43 297.87 Z"/>
+    <path d="M 116.11 290.13 A 144 144 0 1 1 221.87 395.90 L 235.86 362.11 A 108 108 0 1 0 149.89 276.14 Z"/>
+    <path d="M 256 256 L 52.74 340.19 L 160.50 351.50 L 171.81 459.26 Z"/>
+  </g>
 </svg>
